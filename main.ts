@@ -67,7 +67,9 @@ basic.forever(function () {
     basic.showIcon(IconNames.Happy)
     while (true) {
         if (input.buttonIsPressed(Button.AB)) {
-            basic.showString("Starting")
+            basic.showString("3")
+            basic.showString("2")
+            basic.showString("1")
             break;
         }
     }
