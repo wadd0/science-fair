@@ -67,9 +67,9 @@ basic.forever(function () {
     basic.showIcon(IconNames.Happy)
     while (true) {
         if (input.buttonIsPressed(Button.AB)) {
-            basic.showString("3")
-            basic.showString("2")
-            basic.showString("1")
+            basic.showNumber(3)
+            basic.showNumber(2)
+            basic.showNumber(1)
             break;
         }
     }
@@ -138,4 +138,5 @@ basic.forever(function () {
         # . # . .
         . # . . .
         `)
+    music.playMelody("C5 G B A F A C5 B ", 200)
 })
